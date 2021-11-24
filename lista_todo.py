@@ -560,12 +560,12 @@ def adiar_tarefa():
     menu()
 
 def carregar_csv():
-    with open('/Users/Rick/Desktop/ps/mitfokus/tarefas.csv', 'r') as f:
+    with open(dir_csv, 'r') as f:
         reader = csv.DictReader(f)
         agenda.lista_main = list(reader)
 
 def salvar_csv():
-    with open('/Users/Rick/Desktop/ps/mitfokus/tarefas.csv', 'w', newline='') as f:
+    with open(dir_csv, 'w', newline='') as f:
         fieldnames = ['nome','descricao','status','venc','data']
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -574,6 +574,8 @@ def salvar_csv():
 
 
 ###########################################################
+
+dir_csv = '/Users/Rick/Desktop/ps/mitfokus/tarefas.csv'
 
 prompt = '> '
 agenda = Agenda()
