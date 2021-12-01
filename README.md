@@ -15,5 +15,6 @@ Criei o repositório para servir como um portfolio, mas também para compartilha
 
 3. Rodar o programa em linha de comando
 
-```python lista_todo.py
+```bash
+python lista_todo.py
 ```
