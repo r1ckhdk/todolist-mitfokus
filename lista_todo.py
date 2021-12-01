@@ -10,6 +10,7 @@ from datetime import datetime
 
 ###########################################################
 
+dir_csv = '/Users/Rick/Desktop/ps/mitfokus/tarefas.csv'
 
 class Agenda():
 
@@ -574,8 +575,6 @@ def salvar_csv():
 
 
 ###########################################################
-
-dir_csv = '/Users/Rick/Desktop/ps/mitfokus/tarefas.csv'
 
 prompt = '> '
 agenda = Agenda()
