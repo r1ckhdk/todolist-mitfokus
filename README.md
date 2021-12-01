@@ -13,6 +13,7 @@ Criei o repositório para servir como um portfolio, mas também para compartilha
 
 2. Definir o diretório do arquivo csv na variável **dir_csv**
 
-3. Rodar o programa
+3. Rodar o programa em linha de comando
 
-    python lista_todo.py
+```python lista_todo.py
+```
